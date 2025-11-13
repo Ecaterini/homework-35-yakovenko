@@ -1,0 +1,34 @@
+@import "~normalize.css";
+@import "fonts.css";
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: rgb(191, 117, 231);
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+
+.container {
+  padding: 20px 40px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  background-image: url("../assets/icon-square-big.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.code {
+  color: darkred;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(250, 235, 215, 0.474);
+}

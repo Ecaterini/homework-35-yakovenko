@@ -1,0 +1,6 @@
+{
+  "posts": [
+    { "id": 1, "title": "Webpack Post Title" },
+    { "id": 2, "title": "Another post" }
+  ]
+}
